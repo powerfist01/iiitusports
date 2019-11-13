@@ -1,6 +1,14 @@
 const express = require('express');
 const Router = express.Router();
 
+Router.route('/')
+.get(function(req,res){
+    res.render('football');
+})
+.post(function(req,res){
+
+})
+
 Router.route('/football')
 .get(function(req,res){
     res.render('football');
