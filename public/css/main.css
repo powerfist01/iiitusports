@@ -3529,6 +3529,86 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	#banner1 {
+		background-attachment: fixed;
+		background-color: #272833;
+		background-image: url("/static/images/murloc.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		text-align: center;
+		z-index: 21;
+	}
+
+		#banner1:before {
+			content: '';
+			display: inline-block;
+			height: 100vh;
+			vertical-align: middle;
+			width: 1%;
+		}
+
+		#banner1:after {
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		#banner1 .content {
+			display: inline-block;
+			margin-right: 1%;
+			max-width: 95%;
+			padding: 6em;
+			position: relative;
+			text-align: right;
+			vertical-align: middle;
+			z-index: 1;
+		}
+
+			#banner1 .content header {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+				#banner1 .content header h2 {
+					font-size: 2.5em;
+					margin: 0;
+				}
+
+				#banner1 .content header p {
+					margin: 0.5em 0 0 0;
+					top: 0;
+				}
+
+			#banner1 .content .image {
+				border-radius: 100%;
+				display: inline-block;
+				height: 18em;
+				margin-left: 3em;
+				vertical-align: middle;
+				width: 18em;
+			}
+
+				#banner1 .content .image img {
+					border-radius: 100%;
+					display: block;
+					width: 100%;
+				}
+
+	body.is-touch #banner1 {
+		background-attachment: scroll;
+	}
+
 /* Footer */
 
 	#footer {
@@ -3638,6 +3718,9 @@ input, select, textarea {
 		/* Banner */
 
 			#banner .content {
+				padding: 4.5em;
+			}
+			#banner1 .content {
 				padding: 4.5em;
 			}
 

@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const ejs = require('ejs');
 const adminRouter = require('./routes/admin');
-const adminRouter = require('./routes/admin');
 const sportRouter = require('./routes/sport');
 const indexRouter = require('./routes/index');
 
