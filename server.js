@@ -18,7 +18,19 @@ app.use('/admin',adminRouter);
 app.use('/sport',sportRouter);
 app.use('/admin', adminRouter);
 
+
+app.use(function (req, res, next) {
+    var error = new Error('Not Found');
+    error.status = 404;
+    next(error);
+});
+
+app.use((error, req, res, next) => {
+	res.render('notfound');
+});
+
 const port = process.env.PORT || 4000;
+
 app.listen(port,function(err){
     if(err){
         console.log('Error in starting server at port %d',port);
