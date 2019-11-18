@@ -17,7 +17,6 @@ h1{
 	max-width: 900px;
 	background: #00C9FF; 
 	background: -webkit-linear-gradient(to right, rgb(19, 4, 224), rgb(180, 6, 64));
-	background: -webkit-gradient(linear, left top, right top, from(rgb(7, 43, 207)), to(rgb(209, 11, 27)));
 	background: -webkit-linear-gradient(left, #92FE9D, #00C9FF);
 	background: -o-linear-gradient(left, #92FE9D, #00C9FF);
 	background: linear-gradient(to right, rgb(3, 209, 48), rgb(19, 16, 167)); 
@@ -56,17 +55,10 @@ h1{
 }
 
 .PG, .year, .genre, .time {
-	color: fff;
+	color:white;
 	padding: 10px;
 	font-weight: bold;
 	border-radius: 15px;
-}
-
-.PG {
-	background: #92FE9D;
-	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.1);
-	        box-shadow: 0 0 50px rgba(0,0,0,0.1);
-	-webkit-transition: 300ms ease-in-out;
 }
 
 .disc {
@@ -87,10 +79,10 @@ button {
 	border: none;
 	padding: 20px;
 	outline: none;
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 30px;
 	margin-left: 10px;
-	background: #92FE9D;
+	background: rgb(12, 221, 158);
 	border-radius: 12px;
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
 	        box-shadow: 0 0 20px rgba(0,0,0,0.2);

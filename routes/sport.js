@@ -17,6 +17,14 @@ Router.route('/football')
 
 })
 
+Router.route('/footballPlayers')
+.get(function(req,res){
+    res.render('footballPlayers');
+})
+.post(function(req,res){
+
+})
+
 Router.route('/basketball')
 .get(function(req,res){
     res.render('basketball');

@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Profile Image hover effect</title>
-	<link rel="stylesheet" href="style.css">
-
-	<!-- ------------ Font awesome CDN link ------------------ -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<style>
-{
-	background: #f1f2f6;
-	margin: 0;
-	padding: 0;
-}
-
 .image-area
 {
-	top: 50%;
+	padding-top: 100px;
+	top: 500%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	position: absolute;
 }
 
@@ -149,19 +133,3 @@
 	color: #fff;
 	background: rgba(255,255,255,0);
 }
-	</style>
-</head>
-<body>
-	<div class="image-area">
-		<div class="img-wrapper">
-			<img src="https://images.pexels.com/photos/1220757/pexels-photo-1220757.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Atul Prajapati">
-			<h2>David james</h2>
-			<ul>
-				<li><a href="https://github.com/atuljustano"><i class="fab fa-github"></i></a></li>
-				<li><a href="https://www.instagram.com/atulkprajapati2000/"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="https://twitter.com/atuljustano"><i class="fab fa-twitter"></i></a></li>
-			</ul>
-		</div>
-	</div>
-</body>
-</html>
