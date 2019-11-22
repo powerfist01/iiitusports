@@ -10,7 +10,7 @@ h1{
 	color: #fff;
 	width: 950px;
 	height: 450px;
-	margin: 50px auto;
+	margin: 50px auto; 
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -92,6 +92,7 @@ button {
 }
 
 button:hover {
+	cursor:pointer;
 	-webkit-transform: scale(1.1);
 	    -ms-transform: scale(1.1);
 	        transform: scale(1.1);

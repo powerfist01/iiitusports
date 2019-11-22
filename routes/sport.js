@@ -57,4 +57,28 @@ Router.route('/chess')
     
 })
 
+Router.route('/cricket')
+.get(function(req,res){
+    res.render('cricket');
+})
+.post(function(req,res){
+    
+})
+
+Router.route('/badminton')
+.get(function(req,res){
+    res.render('badminton');
+})
+.post(function(req,res){
+    
+})
+
+Router.route('/basketball')
+.get(function(req,res){
+    res.render('basketball');
+})
+.post(function(req,res){
+    
+})
+
 module.exports = Router;
