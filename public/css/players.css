@@ -2,8 +2,14 @@
 {
 	padding-top: 100px;
 	top: 500%;
-	left: 50%;
+	left: 100px;
 	position: absolute;
+}
+
+.header {
+	text-align: center;
+	font-size: 200px;
+	color: darkcyan;
 }
 
 .img-wrapper

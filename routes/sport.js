@@ -17,7 +17,7 @@ Router.route('/football')
 
 })
 
-Router.route('/footballPlayers')
+Router.route('/football/players')
 .get(function(req,res){
     res.render('footballPlayers');
 })
@@ -28,6 +28,14 @@ Router.route('/footballPlayers')
 Router.route('/basketball')
 .get(function(req,res){
     res.render('basketball');
+})
+.post(function(req,res){
+
+})
+
+Router.route('/basketball/players')
+.get(function(req,res){
+    res.render('basketballPlayers');
 })
 .post(function(req,res){
 
