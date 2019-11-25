@@ -11,7 +11,7 @@ const app = express();
 // setting the views folder and public folder
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use('/static',express.static(__dirname + '/public'));
+app.use('/public',express.static(__dirname + '/public'));
 
 app.use('/',indexRouter);
 app.use('/admin',adminRouter);
