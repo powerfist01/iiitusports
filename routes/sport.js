@@ -3,7 +3,10 @@ const Router = express.Router();
 
 Router.route('/')
 .get(function(req,res){
-    res.render('football');
+    res.json({
+        message:"This is Sports Page",
+        status:"OK"
+    });
 })
 .post(function(req,res){
 
@@ -73,17 +76,9 @@ Router.route('/cricket')
     
 })
 
-Router.route('/badminton')
+Router.route('/volleyball')
 .get(function(req,res){
-    res.render('badminton');
-})
-.post(function(req,res){
-    
-})
-
-Router.route('/basketball')
-.get(function(req,res){
-    res.render('basketball');
+    res.render('volleyball');
 })
 .post(function(req,res){
     
