@@ -9,6 +9,10 @@ Router.get('/events',function(req,res){
     res.render('events');
 })
 
+Router.get('/addEvents',function(req,res){
+    res.render('addEvent.ejs');
+})
+
 Router.get('/notfound',function(req,res){
     res.render('notfound');
 })
