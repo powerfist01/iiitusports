@@ -3,10 +3,13 @@ body {
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
+				
 h1{
 	color: rgb(23, 10, 202);
 }
+
 .main_card {
+	margin-top: 100px;
 	color: #fff;
 	width: 950px;
 	height: 450px;
