@@ -17,4 +17,8 @@ Router.get('/notfound',function(req,res){
     res.render('notfound');
 })
 
+Router.get('/council',function(req,res){
+    res.render('council');
+})
+
 module.exports = Router;
