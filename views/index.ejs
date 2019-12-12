@@ -6,7 +6,15 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/public/css/main.css">
-	<noscript><link rel="stylesheet" href="/public/css/noscript.css"></noscript>
+	<noscript>
+		<link rel="stylesheet" href="/public/css/noscript.css"></noscript>
+	<style>
+		a,
+		p,
+		h1 {
+			font-weight: 500;
+		}
+	</style>
 </head>
 
 <body class="is-preload landing">
@@ -208,13 +216,16 @@
 		<!-- Five -->
 		<section id="seven" class="wrapper style2 special fade">
 			<div class="container">
-				<header>
-					<h2>Help us improve with your feedback!</h2>
-				</header>
+				<h2>Help us improve with your feedback!</h2>
 				<form method="post" action="#" class="cta">
 					<div class="row gtr-uniform gtr-50">
-						<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
-								placeholder="Your Email Address" /></div>
+						<div class="col-8 col-12-xsmall">
+							<input type="email" name="email" id="email"
+								placeholder="Your Email Address" />
+						</div>
+						<div class="col-8 col-12-xsmall">
+							<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+						</div>
 						<div class="col-4 col-12-xsmall"><input type="submit" value="Send" class="fit primary" />
 						</div>
 					</div>
@@ -235,7 +246,8 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; IIIT Una. All rights reserved.</li>
-				<li>Design: <a href="https://powerfist01.web.app" target="_blank" style="text-decoration:none;">Sujeet Singh</a></li>
+				<li>Design: <a href="https://powerfist01.web.app" target="_blank" style="text-decoration:none;">Sujeet
+						Singh</a></li>
 			</ul>
 		</footer>
 
