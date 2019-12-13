@@ -1,6 +1,6 @@
 .image-area
 {
-	padding-top: 100px;
+	padding-top: 50px;
 	top: 500%;
 	left: 100px;
 	position: absolute;
@@ -8,7 +8,7 @@
 
 .header {
 	text-align: center;
-	font-size: 200px;
+	font-size: 100px;
 	color: darkcyan;
 }
 
@@ -54,6 +54,7 @@
 
 .img-wrapper h2
 {
+	font-size: 30px;
 	background: tomato;
 	font-family: Poppins;
 	color: #fff;
@@ -72,6 +73,7 @@
 .img-wrapper:hover h2
 {
 	transform: perspective(400px) rotateY(0deg);
+	font-size: 30px;
 }
 
 .img-wrapper ul

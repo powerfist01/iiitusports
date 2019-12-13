@@ -3386,12 +3386,12 @@ input, select, textarea {
 			left: 1.25em;
 			line-height: inherit;
 			margin: 0;
-			position: absolute;
+			position: fixed;
 			top: 0;
 		}
 
 		#header nav {
-			position: absolute;
+			position: fixed;
 			right: 1em;
 			top: 0;
 		}
@@ -3447,7 +3447,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("/public/images/football-allahabad.jpg");
+		background-image: url("/public/images/pic01.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
