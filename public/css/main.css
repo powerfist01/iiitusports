@@ -3195,7 +3195,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #af09d8;
+			background: #7f8859;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -4099,4 +4099,11 @@ input, select, textarea {
 						padding: 0;
 					}
 
+	}
+
+	a,
+	p,
+	h1,
+	li {
+		font-weight: 500;
 	}

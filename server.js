@@ -1,10 +1,6 @@
 const express = require('express');
 const path = require('path');
 const ejs = require('ejs');
-const adminRouter = require('./routes/admin');
-const sportRouter = require('./routes/sport');
-const indexRouter = require('./routes/index');
-
 
 const app = express();
 
@@ -12,6 +8,14 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use('/public',express.static(__dirname + '/public'));
+
+
+
+const adminRouter = require('./routes/admin');
+const sportRouter = require('./routes/sport');
+const indexRouter = require('./routes/index');
+
+
 
 app.use('/',indexRouter);
 app.use('/admin',adminRouter);
