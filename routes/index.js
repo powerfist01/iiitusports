@@ -13,6 +13,10 @@ Router.get('/addEvents',function(req,res){
     res.render('addEvent');
 })
 
+Router.get('/gallery',function(req,res){
+    res.render('gallery');
+})
+
 Router.get('/notfound',function(req,res){
     res.render('notfound');
 })
