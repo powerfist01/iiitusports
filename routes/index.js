@@ -25,4 +25,9 @@ Router.get('/council',function(req,res){
     res.render('council');
 })
 
+Router.post('/feedback',function(req,res){
+    console.log(req.body.email);
+    res.render('feedback');
+})
+
 module.exports = Router;
