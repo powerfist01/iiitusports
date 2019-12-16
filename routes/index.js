@@ -31,6 +31,10 @@ Router.get('/blog',function(req,res){
     res.render('blog');
 })
 
+Router.get('/blogging',function(req,res){
+    res.render('blogging');
+})
+
 Router.get('/council',function(req,res){
     res.render('council');
 })
