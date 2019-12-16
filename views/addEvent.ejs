@@ -2,11 +2,12 @@
 <html>
 
 <head>
-	<title>Events | ADD </title>
+	<title>Add Event | IIITU Sports </title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/public/css/main.css" />
-	<noscript><link rel="stylesheet" href="/public/css/noscript.css" /></noscript>
+	<noscript>
+		<link rel="stylesheet" href="/public/css/noscript.css" /></noscript>
 </head>
 
 <body class="is-preload">
@@ -17,9 +18,7 @@
 			<h1 id="logo"><a href="/">IIIT Una Sports</a></h1>
 			<nav id="nav">
 				<ul>
-					<li><a href="/addEvents" style="font-size: 25px;">Add Events</a></li>
 					<li><a href="/events" style="font-size: 25px;">Events</a></li>
-					<li><a href="#" style="font-size: 25px;">Jerseys</a></li>
 					<li>
 						<a href="#" style="font-size: 25px;">Sports</a>
 						<ul>
@@ -32,7 +31,6 @@
 
 						</ul>
 					</li>
-
 					<li><a href="#" style="font-size: 25px;">Yalgaar</a></li>
 					<li><a href="#" style="font-size: 25px;">Council</a></li>
 				</ul>
@@ -48,40 +46,41 @@
 				</header>
 
 				<!--Form for Adding an event-->
-				<form method="post" action="#">
+				<form method="POST" action="#">
 					<div class="row gtr-uniform gtr-50">
-						<div class="col-6 col-12-xsmall">
+						<div class="col-6 col-12-xsmall" class="inline">
 							<input type="text" name="name" id="name" value="" placeholder="Name of the Event" />
 						</div>
 						<br>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="email" id="email" value="" placeholder="Date of Event" />
+							<input type="text" name="eventDate" id="email" value="" placeholder="Date of Event" />
+							<h5>(e.g. 20th March, 2020)</h5>
 						</div>
 						<br>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="email" id="email" value=""
+							<input type="text" name="lastRegistration" id="email" value=""
 								placeholder="Last Date for Registration" />
+							<h5>(e.g. 20th March, 2020)</h5>
 						</div>
 						<br>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="email" id="email" value=""
+							<input type="text" name="linkRegister" id="email" value=""
 								placeholder="Google Form Link for Registration" />
 						</div>
 						<br>
 						<div class="col-6 col-12-xsmall">
-							<input type="email" name="email" id="email" value=""
+							<input type="text" name="link" id="email" value=""
 								placeholder="Link for some knowledge about the event" />
 						</div>
 						<br>
 						<div class="col-6 col-12-xsmall">
-							<input type="file" name="email" id="email" value="Rule Book"
-								placeholder="" />
+							<input type="file" name="ruleBook" id="email" value="Rule Book" placeholder="" />
 						</div>
 						<div class="col-12">
 							<textarea name="message" id="message" placeholder="Enter details for the event."
 								rows="6"></textarea>
 						</div>
-						
+
 						<div class="col-12">
 							<ul class="actions">
 								<li><input type="submit" value="Add" class="primary" /></li>
@@ -106,7 +105,8 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; IIIT Una. All rights reserved.</li>
-				<li>Design: <a href="https://powerfist01.web.app" target="_blank" style="text-decoration:none;">Sujeet umar Singh</a></li>
+				<li>Design: <a href="https://powerfist01.web.app" target="_blank" style="text-decoration:none;">Sujeet
+						Singh</a></li>
 			</ul>
 		</footer>
 	</div>

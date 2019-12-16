@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		background: #312450;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3369,7 +3369,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: #272833;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 4em 0;
+		padding: 3em 0;
 		text-align: center;
 	}
 
@@ -4104,6 +4104,8 @@ input, select, textarea {
 	a,
 	p,
 	h1,
-	li {
+	li,
+	input,
+	textarea {
 		font-weight: 500;
 	}
