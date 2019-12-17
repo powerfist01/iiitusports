@@ -2,50 +2,50 @@ const express = require('express');
 const Router = express.Router();
 
 
-Router.get('/',function(req,res){
+Router.get('/', function (req, res) {
     res.render('index');
 })
 
-Router.get('/events',function(req,res){
+Router.get('/admin', function (req, res) {
+    res.render('admin');
+})
+
+Router.get('/events', function (req, res) {
     res.render('events');
 })
 
-Router.route('/addEvent')
-    .get(function(req,res){
-        res.render('addEvent');
-    })
-    .post(function(req,res){
-        console.log(req.body);
-        res.redirect('/');
-    })
+Router.get('/achievements', function (req, res) {
+    res.render('achievements');
+})
 
-Router.get('/gallery',function(req,res){
+Router.get('/gallery', function (req, res) {
     res.render('gallery');
 })
 
-Router.get('/notfound',function(req,res){
-    res.render('notfound');
-})
 
-Router.get('/blog',function(req,res){
+Router.get('/blog', function (req, res) {
     res.render('blog');
 })
 
-Router.get('/blogging',function(req,res){
+Router.get('/blogging', function (req, res) {
     res.render('blogging');
 })
 
-Router.get('/council',function(req,res){
+Router.get('/council', function (req, res) {
     res.render('council');
 })
 
 Router.route('/feedback')
-    .get(function(req,res){
+    .get(function (req, res) {
         res.render('feedback');
     })
-    .post(function(req,res){
+    .post(function (req, res) {
         console.log(req.body);
         res.redirect('/feedback');
     })
+
+Router.get('/notfound', function (req, res) {
+    res.render('notfound');
+})
 
 module.exports = Router;

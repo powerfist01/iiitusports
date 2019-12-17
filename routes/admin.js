@@ -1,8 +1,14 @@
 const express = require('express');
 const Router = express.Router();
 
-Router.get('/football',function(req,res){
-    res.render('football');
-})
+Router.route('/addEvent')
+    .get(function (req, res) {
+        res.render('addEvent');
+    })
+    .post(function (req, res) {
+        console.log(req.body);
+        res.redirect('/');
+    })
+
 
 module.exports = Router;
