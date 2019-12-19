@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 const app = express();
 
 // setting the views folder and public folder

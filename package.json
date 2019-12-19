@@ -9,6 +9,7 @@
   "author": "powerfist01",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "html": "^1.0.0",
