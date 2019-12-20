@@ -33,7 +33,7 @@ Router.route('/basketball')
     res.render('basketball');
 })
 .post(function(req,res){
-
+    
 })
 
 Router.route('/basketball/players')

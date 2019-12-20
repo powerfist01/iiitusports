@@ -17,7 +17,6 @@ const sportRouter = require('./routes/sport');
 const indexRouter = require('./routes/index');
 
 
-
 app.use('/',indexRouter);
 app.use('/admin',adminRouter);
 app.use('/sport',sportRouter);
