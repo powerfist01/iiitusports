@@ -1,3 +1,6 @@
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
 const blog = new Schema({
     name: String,
     author: String,
