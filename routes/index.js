@@ -41,6 +41,7 @@ Router.route('/feedback')
     })
     .post(function (req, res) {
         console.log(req.body);
+        
         res.redirect('/feedback');
     })
 
