@@ -4,7 +4,7 @@
   "description": "Sports Website of IIIT Una",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "powerfist01",
   "license": "ISC",
