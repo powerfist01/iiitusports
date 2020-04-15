@@ -1,6 +1,7 @@
 # iiitusports
 The official sports Website of IIIT Una
 
-It will be live soon :)
+Live at 
+https://www.iiitusports.herokuapp.com
 
 You can contribute.
